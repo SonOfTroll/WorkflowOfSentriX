@@ -7,3 +7,4 @@ decision/risk_engine  → Calls ML or rules
 responder/*.py        → Acts on risk
 main.py               → Orchestrates
 ```
+### The /etc/shadow file in Linux stores secure user account information, specifically hashed (encrypted) passwords and password aging policies, to enhance system security.
