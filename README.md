@@ -8,3 +8,7 @@ responder/*.py        → Acts on risk
 main.py               → Orchestrates
 ```
 ### The /etc/shadow file in Linux stores secure user account information, specifically hashed (encrypted) passwords and password aging policies, to enhance system security.
+```bash
+What happens if system is compromised before baseline?
+The system assumes a trusted initialization phase... baaseline creation must be done on a verified clean system otherwise integrity monitoring cannot detect prior compromise
+```
