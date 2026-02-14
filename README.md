@@ -12,3 +12,5 @@ main.py               → Orchestrates
 What happens if system is compromised before baseline?
 The system assumes a trusted initialization phase... baaseline creation must be done on a verified clean system otherwise integrity monitoring cannot detect prior compromise
 ```
+## Privilege Monitor
+### Instead of relying solely on static thresholds, the design allows combining privilege level, resource usage, and process metadata. The current implementation uses conservative thresholds to balance false positives and detection sensitivity, with support for future behavioral scoring.
