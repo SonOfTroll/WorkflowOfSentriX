@@ -17,3 +17,9 @@ The system assumes a trusted initialization phase... baaseline creation must be 
 
 ---
 ### It’s a hybrid detection system combining rule-based thresholds and ML anomaly scoring through an ensemble risk engine.
+
+```bash
+detector → risk_engine → responder → logger
+                 ↑
+              ml_engine
+```
