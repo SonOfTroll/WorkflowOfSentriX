@@ -14,3 +14,6 @@ The system assumes a trusted initialization phase... baaseline creation must be 
 ```
 ## Privilege Monitor
 ### Instead of relying solely on static thresholds, the design allows combining privilege level, resource usage, and process metadata. The current implementation uses conservative thresholds to balance false positives and detection sensitivity, with support for future behavioral scoring.
+
+---
+### It’s a hybrid detection system combining rule-based thresholds and ML anomaly scoring through an ensemble risk engine.
